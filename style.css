@@ -42,21 +42,23 @@ textarea {
   text-align: left;
 }
 .row {
-  opacity: 80%;
   text-align: left;
   white-space: pre-wrap;
-  font-weight:900;
   height: 80px;
   border-top: 1px solid white;
-  background-color: rgb(252, 210, 236);
+  background-color: rgb(245, 218, 234);
   border-radius: 10px;
 }
 
 .hour {
+  font-weight: bolder;
   background-color: transparent;
   color: #000000;
-  border-left: thin;
+  border-right: thin;
   border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .past {
