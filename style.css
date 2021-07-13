@@ -2,9 +2,9 @@
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 body {
-  background-image: url("kawaii-kitty.jpg");
+  background-image: url("sailor-moon.jpg");
   background-repeat: repeat;
- 
+
   font-size: 16px;
   line-height: 1;
 }
@@ -21,7 +21,7 @@ textarea {
 .jumbotron {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   text-align: center;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(30, 8, 44);
   color: white;
   border-radius: 10px;
   border-bottom: 10px solid black;
@@ -80,11 +80,19 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #ffa0d4;
+  background-color: rgb(252, 195, 203);
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+.fa-cloud-moon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  padding: 15px;
 }
