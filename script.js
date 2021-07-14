@@ -5,6 +5,7 @@ $(document).ready(function(){
         var textInput = $(this).siblings(".task").val();
         var  time = $(this).parent().attr("id");
         localStorage.setItem(time, textInput);
+        console.log("test")
     });
 
         //saving text input in the local storage
