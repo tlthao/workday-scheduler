@@ -21,3 +21,6 @@ THEN the saved events persist<br>
 <h3>Experience</h3>
 
 I felt a little more confortable doing this project because I became familiar with JQuery with my last assignment. I was introduced to Moment JS and FontAwesome, which I utilized in the assignment. 
+
+<h3>Live Website Link</h3>
+https://tlthao.github.io/workday-scheduler/
