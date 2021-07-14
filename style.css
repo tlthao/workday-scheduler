@@ -14,8 +14,9 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  border-left: 1px solid rgb(0, 0, 0);
+  line-height: 2px;
+  padding: 15px;
 }
 
 .jumbotron {
@@ -29,7 +30,7 @@ textarea {
 .lead {
   font-size: medium;
 }
-.description {
+.task {
   white-space: pre-wrap;
 }
 
@@ -41,7 +42,7 @@ textarea {
 .row {
   text-align: left;
   white-space: pre-wrap;
-  height: 80px;
+  height: 87px;
   border-top: 1px solid white;
   background-color: rgb(245, 218, 234);
   border-radius: 10px;
@@ -51,7 +52,8 @@ textarea {
   font-weight: bolder;
   background-color: transparent;
   color: #000000;
-  border-right: thin;
+  border-right-style: thin;
+  line-height: 3px;
   border-color: black;
   display: flex;
   justify-content: center;
@@ -64,12 +66,12 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: rgb(252, 176, 227);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #f349c0;
   color: white;
 }
 
